@@ -23,6 +23,9 @@
 		<Item Name="NI PXI-4110 Programmable Power Supply Initialization VI.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply Initialization VI.vi"/>
 		<Item Name="4110_Global.vi" Type="VI" URL="../4110_Global.vi"/>
 		<Item Name="Double to String.vi" Type="VI" URL="../Double to String.vi"/>
+		<Item Name="NI Programmable Power Supply Hardware Selection.vi" Type="VI" URL="../NI Programmable Power Supply Hardware Selection.vi"/>
+		<Item Name="Power_Supply_In_Use.ctl" Type="VI" URL="../Power_Supply_In_Use.ctl"/>
+		<Item Name="IO_Type.ctl" Type="VI" URL="../IO_Type.ctl"/>
 	</Item>
 	<Item Name="RT" Type="Folder">
 		<Item Name="NI PXI-4110 Programmable Power Supply RT Driver VI.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply RT Driver VI.vi"/>
