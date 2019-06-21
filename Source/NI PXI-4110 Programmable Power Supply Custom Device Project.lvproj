@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -23,6 +23,7 @@
 		<Item Name="NI PXI-4110 Programmable Power Supply Custom Device.lvlib" Type="Library" URL="../NI PXI-4110 Programmable Power Supply Custom Device.lvlib"/>
 		<Item Name="Custom Device NI PXI-4110 Programmable Power Supply.xml" Type="Document" URL="../Custom Device NI PXI-4110 Programmable Power Supply.xml"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+		<Item Name="NI Programmable Power Supply Hardware Selection.vi" Type="VI" URL="../NI Programmable Power Supply Hardware Selection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
