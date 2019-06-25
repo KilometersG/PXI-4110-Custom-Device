@@ -152,7 +152,7 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Pages/NI PXI-4110 Programmable Power Supply Ch Page.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Volt _Chan Config Dialog.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Volt _Chan Config Dialog_RTM.vi</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Current _Chan Config Dialog.vi</Property>

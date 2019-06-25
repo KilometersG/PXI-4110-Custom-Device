@@ -10,8 +10,10 @@
 			<Item Name="NI PXI-4110 Programmable Power Supply Ch Page.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply Ch Page.vi"/>
 		</Item>
 		<Item Name="Dialogs" Type="Folder">
-			<Item Name="4110_Volt _Chan Config Dialog.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog.vi"/>
+			<Item Name="4110_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog_RTM.vi"/>
 			<Item Name="4110_Current _Chan Config Dialog.vi" Type="VI" URL="../4110_Current _Chan Config Dialog.vi"/>
+			<Item Name="4110_Volt _Chan Config Dialog.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog.vi"/>
+			<Item Name="4112_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4112_Volt _Chan Config Dialog_RTM.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="4110_Create V Chans.vi" Type="VI" URL="../4110_Create V Chans.vi"/>
@@ -26,6 +28,7 @@
 		<Item Name="NI Programmable Power Supply Hardware Selection.vi" Type="VI" URL="../NI Programmable Power Supply Hardware Selection.vi"/>
 		<Item Name="Power_Supply_In_Use.ctl" Type="VI" URL="../Power_Supply_In_Use.ctl"/>
 		<Item Name="IO_Type.ctl" Type="VI" URL="../IO_Type.ctl"/>
+		<Item Name="RunTimeMenu_Add_Volt_Chan.vi" Type="VI" URL="../RunTimeMenu_Add_Volt_Chan.vi"/>
 	</Item>
 	<Item Name="RT" Type="Folder">
 		<Item Name="NI PXI-4110 Programmable Power Supply RT Driver VI.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply RT Driver VI.vi"/>
