@@ -35,6 +35,7 @@
 		<Item Name="4110_Config.vi" Type="VI" URL="../4110_Config.vi"/>
 		<Item Name="Print Error.vi" Type="VI" URL="../Print Error.vi"/>
 	</Item>
-	<Item Name="get limits.vi" Type="VI" URL="../get limits.vi"/>
+	<Item Name="Get Channel Limits.vi" Type="VI" URL="../Get Channel Limits.vi"/>
+	<Item Name="Get Channels limits.vi" Type="VI" URL="../Get Channels limits.vi"/>
 	<Item Name="Set Range Controls.vi" Type="VI" URL="../Set Range Controls.vi"/>
 </Library>

@@ -23,6 +23,7 @@
 		<Item Name="NI PXI-4110 Programmable Power Supply Custom Device.lvlib" Type="Library" URL="../NI PXI-4110 Programmable Power Supply Custom Device.lvlib"/>
 		<Item Name="Custom Device NI PXI-4110 Programmable Power Supply.xml" Type="Document" URL="../Custom Device NI PXI-4110 Programmable Power Supply.xml"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+		<Item Name="Create V Chans_RTM.vi" Type="VI" URL="../Create V Chans_RTM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
