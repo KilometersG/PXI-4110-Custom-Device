@@ -12,14 +12,17 @@
 		<Item Name="Dialogs" Type="Folder">
 			<Item Name="4110_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog_RTM.vi"/>
 			<Item Name="4110_Current _Chan Config Dialog.vi" Type="VI" URL="../4110_Current _Chan Config Dialog.vi"/>
+			<Item Name="4112_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4112_Volt _Chan Config Dialog_RTM.vi"/>
 			<Item Name="4110_Volt _Chan Config Dialog.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="4110_Create V Chans.vi" Type="VI" URL="../4110_Create V Chans.vi"/>
+			<Item Name="RemoteSense.ctl" Type="VI" URL="../RemoteSense.ctl"/>
 			<Item Name="4110_Create I Chans.vi" Type="VI" URL="../4110_Create I Chans.vi"/>
 			<Item Name="NI PXI-4110 Change Name.vi" Type="VI" URL="../NI PXI-4110 Change Name.vi"/>
 			<Item Name="4110_Channel #.ctl" Type="VI" URL="../4110_Channel #.ctl"/>
 			<Item Name="NI PXI-4110 Rename channel.vi" Type="VI" URL="../NI PXI-4110 Rename channel.vi"/>
+			<Item Name="Create V Chans_RTM.vi" Type="VI" URL="../Create V Chans_RTM.vi"/>
 		</Item>
 		<Item Name="NI PXI-4110 Programmable Power Supply Initialization VI.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply Initialization VI.vi"/>
 		<Item Name="4110_Global.vi" Type="VI" URL="../4110_Global.vi"/>
@@ -28,6 +31,7 @@
 		<Item Name="Power_Supply_In_Use.ctl" Type="VI" URL="../Power_Supply_In_Use.ctl"/>
 		<Item Name="IO_Type.ctl" Type="VI" URL="../IO_Type.ctl"/>
 		<Item Name="RunTimeMenu_Add_Volt_Chan.vi" Type="VI" URL="../RunTimeMenu_Add_Volt_Chan.vi"/>
+		<Item Name="RunTimeMenu_Add_Current_Chan.vi" Type="VI" URL="../RunTimeMenu_Add_Current_Chan.vi"/>
 	</Item>
 	<Item Name="RT" Type="Folder">
 		<Item Name="NI PXI-4110 Programmable Power Supply RT Driver VI.vi" Type="VI" URL="../NI PXI-4110 Programmable Power Supply RT Driver VI.vi"/>
@@ -37,4 +41,5 @@
 	<Item Name="Get Channel Limits.vi" Type="VI" URL="../Get Channel Limits.vi"/>
 	<Item Name="Get Channels limits.vi" Type="VI" URL="../Get Channels limits.vi"/>
 	<Item Name="Set Range Controls.vi" Type="VI" URL="../Set Range Controls.vi"/>
+	<Item Name="4110_Current _Chan Config Dialog_RTM.vi" Type="VI" URL="../4110_Current _Chan Config Dialog_RTM.vi"/>
 </Library>
