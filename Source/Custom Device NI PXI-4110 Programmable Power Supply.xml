@@ -46,10 +46,7 @@
 			<RunTimeMenu>
 				<MenuItem>
 					<GUID>e405eab4-4be6-4220-b80c-055e025f051f</GUID>
-					<Glyph>
-						<Type>To App Data Dir</Type>
-						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
-					</Glyph>
+					
 					<Type>Action</Type>
 					<Name>
 						<eng>Add Voltage Channel</eng>
@@ -61,6 +58,33 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Voltage Channel</ID>
+					<Glyph>
+						<Type>To App Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>e405eab4-4be6-4220-b80c-055e025f051f</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Voltage Channel</eng>
+						<loc>Add Voltage Channel</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Voltage Channel</eng>
+						<loc>Add Voltage Channel</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add One or More New Voltage Channels</eng>
+						<loc>Add One or More New Voltage Channels</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
