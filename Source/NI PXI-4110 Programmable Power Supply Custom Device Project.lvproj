@@ -88,6 +88,7 @@
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="4112_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4112_Volt _Chan Config Dialog_RTM.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration" Type="Source Distribution">

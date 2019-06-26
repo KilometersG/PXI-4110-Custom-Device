@@ -13,7 +13,6 @@
 			<Item Name="4110_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog_RTM.vi"/>
 			<Item Name="4110_Current _Chan Config Dialog.vi" Type="VI" URL="../4110_Current _Chan Config Dialog.vi"/>
 			<Item Name="4110_Volt _Chan Config Dialog.vi" Type="VI" URL="../4110_Volt _Chan Config Dialog.vi"/>
-			<Item Name="4112_Volt _Chan Config Dialog_RTM.vi" Type="VI" URL="../4112_Volt _Chan Config Dialog_RTM.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="4110_Create V Chans.vi" Type="VI" URL="../4110_Create V Chans.vi"/>
