@@ -73,7 +73,7 @@
 				<Button>
 					<ID>Add Voltage Channel</ID>
 					<Glyph>
-						<Type>To App Data Dir</Type>
+						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
 					</Glyph>
 					<Type>Action</Type>
@@ -98,7 +98,7 @@
 				<Button>
 					<ID>Add Current Channel</ID>
 					<Glyph>
-						<Type>To App Data Dir</Type>
+						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
 					</Glyph>
 					<Type>Action</Type>
@@ -129,7 +129,7 @@
 			</Name>
 			<GUID>a75eced0-4074-47c0-908c-c3062bedfbe5</GUID>
 			<Glyph>
-				<Type>To App Data Dir</Type>
+				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\ao.png</Path>
 			</Glyph>
 			<Item2Launch>
