@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -21,7 +21,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI PXI-4110 Programmable Power Supply Custom Device.lvlib" Type="Library" URL="../NI PXI-4110 Programmable Power Supply Custom Device.lvlib"/>
-		<Item Name="Custom Device NI PXI-4110 Programmable Power Supply.xml" Type="Document" URL="../Custom Device NI PXI-4110 Programmable Power Supply.xml"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -102,65 +101,56 @@
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Configuration</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Configuration/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">NI PXI-4110 Programmable Power Supply Folder</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2015/Custom Devices/NI PXI-4110 Programmable Power Supply/NI PXI-4110 Programmable Power Supply Configuration.llb</Property>
+				<Property Name="Destination[2].destName" Type="Str">NI PXI Programmable Power Supply Folder</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2018/Custom Devices/NI PXI Programmable Power Supply/NI PXI Programmable Power Supply Configuration.llb</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Main Custom Device Folder</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Users/Public/Documents/National Instruments/VeriStand/Custom Devices</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/Public/Documents/National Instruments/VeriStand 2018/Custom Devices</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1CD4EBA-9665-49A9-8C02-4C63461890D3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A4C9F7B7-7986-4514-BCE6-149BC274CD1F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device NI PXI-4110 Programmable Power Supply.xml</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/4110_Create I Chans.vi</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/NI PXI-4110 Change Name.vi</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/4110_Channel #.ctl</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/NI PXI-4110 Rename channel.vi</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Pages/NI PXI Programmable Power Supply Main Page.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Custom Device NI PXI Programmable Power Supply.xml</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Pages/NI PXI-4110 Programmable Power Supply Main Page.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/NI PXI Programmable Power Supply Initialization VI.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/NI PXI-4110 Programmable Power Supply Initialization VI.vi</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/4110_Global.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/4110_Global.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Pages/NI PXI Programmable Power Supply Ch Page.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Pages/NI PXI-4110 Programmable Power Supply Ch Page.vi</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Volt _Chan Config Dialog_RTM.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Volt _Chan Config Dialog.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/NI PXI-4110 Change Name.vi</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Dialogs/4110_Current _Chan Config Dialog.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/4110_Channel #.ctl</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/4110_Create V Chans.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/Sys Explorer/Utils/NI PXI-4110 Rename channel.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 			<Item Name="Engine" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8F212426-4F18-41C5-BCDD-C03239E3F103}</Property>
@@ -176,16 +166,16 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Engine/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">NI PXI-4110 Programmable Power Supply Folder</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2015/Custom Devices/NI PXI-4110 Programmable Power Supply/NI PXI-4110 Programmable Power Supply Engine.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2018/Custom Devices/NI PXI Programmable Power Supply/NI PXI Programmable Power Supply Engine.llb</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1CD4EBA-9665-49A9-8C02-4C63461890D3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1E07C202-3446-4F11-A161-1AEB4C8CED91}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/RT/NI PXI-4110 Programmable Power Supply RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/RT/NI PXI Programmable Power Supply RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
