@@ -46,7 +46,6 @@
 			<RunTimeMenu>
 				<MenuItem>
 					<GUID>e405eab4-4be6-4220-b80c-055e025f051f</GUID>
-					
 					<Type>Action</Type>
 					<Name>
 						<eng>Add Voltage Channel</eng>
@@ -55,6 +54,18 @@
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\RunTimeMenu_Add_Volt_Chan.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d111ce41-1bb7-42d2-b5ed-d770075cad55</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\RunTimeMenu_Add_Current_Chan.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -78,6 +89,31 @@
 					<TipStrip>
 						<eng>Add One or More New Voltage Channels</eng>
 						<loc>Add One or More New Voltage Channels</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Add Current Channel</ID>
+					<Glyph>
+						<Type>To App Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d111ce41-1bb7-42d2-b5ed-d770075cad55</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add One or More New Current Channels</eng>
+						<loc>Add One or More New Current Channels</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
