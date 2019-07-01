@@ -26,8 +26,8 @@
 			<Item Name="NI PXI-4110 Rename channel.vi" Type="VI" URL="../NI PXI-4110 Rename channel.vi"/>
 			<Item Name="Get Channel Limits.vi" Type="VI" URL="../Get Channel Limits.vi"/>
 			<Item Name="Coerce To Limits.vi" Type="VI" URL="../Coerce To Limits.vi"/>
-			<Item Name="Get Multiple Channels limits.vi" Type="VI" URL="../Get Multiple Channels limits.vi"/>
 		</Item>
+		<Item Name="Get Multiple Channels limits.vi" Type="VI" URL="../Get Multiple Channels limits.vi"/>
 		<Item Name="NI PXI Programmable Power Supply Initialization VI.vi" Type="VI" URL="../NI PXI Programmable Power Supply Initialization VI.vi"/>
 		<Item Name="4110_Global.vi" Type="VI" URL="../4110_Global.vi"/>
 		<Item Name="Double to String.vi" Type="VI" URL="../Double to String.vi"/>
