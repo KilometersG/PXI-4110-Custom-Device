@@ -172,7 +172,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1E07C202-3446-4F11-A161-1AEB4C8CED91}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97A76CE0-0E9B-45B5-9165-3EED5A0F931E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI PXI-4110 Programmable Power Supply Custom Device.lvlib/RT/NI PXI Programmable Power Supply RT Driver VI.vi</Property>
