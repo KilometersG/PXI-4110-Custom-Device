@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<AddMenu>
+		<eng>NI PXI Programmable Power Supply</eng>
+		<loc>NI PXI Programmable Power Supply</loc>
+	</AddMenu>
+	<Version>2.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>29AF4F2E-106D-CFD8-9842-B199EAB6BA0C</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\NI PXI Programmable Power Supply Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Engine.llb\NI PXI Programmable Power Supply RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Engine.llb\NI PXI Programmable Power Supply RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>NI PXI Programmable Power Supply</eng>
+				<loc>NI PXI Programmable Power Supply</loc>
+			</Name>
+			<GUID>29AF4F2E-106D-CFD8-9842-B199EAB6BA0C</GUID>
+			<Glyph>
+				<Type>To App Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\NI PXI Programmable Power Supply Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>e405eab4-4be6-4220-b80c-055e025f051f</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Voltage Channel</eng>
+						<loc>Add Voltage Channel</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\RunTimeMenu_Add_Volt_Chan.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d111ce41-1bb7-42d2-b5ed-d770075cad55</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\RunTimeMenu_Add_Current_Chan.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Voltage Channel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>e405eab4-4be6-4220-b80c-055e025f051f</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Voltage Channel</eng>
+						<loc>Add Voltage Channel</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Voltage Channel</eng>
+						<loc>Add Voltage Channel</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add One or More New Voltage Channels</eng>
+						<loc>Add One or More New Voltage Channels</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Add Current Channel</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d111ce41-1bb7-42d2-b5ed-d770075cad55</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Current Channel</eng>
+						<loc>Add Current Channel</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add One or More New Current Channels</eng>
+						<loc>Add One or More New Current Channels</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>NI PXI Power Supply Channel Settings</eng>
+				<loc>NI PXI Power Supply Channel Settings</loc>
+			</Name>
+			<GUID>a75eced0-4074-47c0-908c-c3062bedfbe5</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ao.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\NI PXI Programmable Power Supply\NI PXI Programmable Power Supply Configuration.llb\NI PXI Programmable Power Supply Ch Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>
